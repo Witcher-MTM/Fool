@@ -1,0 +1,54 @@
+#cardgame_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cards_stack{
+    position: absolute;
+   margin-top: -220px;
+   margin-left: 200px;
+}
+    .stack_card{
+        position: absolute;
+        width: 100px;
+        height: 175px;
+        border: solid 2px black;
+        border-radius: 20%;
+        background-color: rgb(94, 94, 95);  
+    }
+
+
+#first_player_arm{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 180px;
+    background-color: aqua;
+    margin-left: 35%;   
+}
+    .first_player_cards{
+        position: absolute;
+        width: 100px;
+        height: 175px;
+        border: solid 2px black;
+        border-radius: 20%;
+        background-color: rgb(94, 94, 95);  
+    }
+        
+#second_player_arm{
+    display: flex;
+    flex-direction: row;
+    width: 25%; 
+    height: 180px;
+    background-color: aqua;
+    margin-top: 380px;
+    margin-left: 35%;
+}    
+    .second_player_cards{
+        position: absolute;
+        width: 100px;
+        height: 175px;
+        border: solid 2px black;
+        border-radius: 20%;
+        background-color: rgb(94, 94, 95);
+    }

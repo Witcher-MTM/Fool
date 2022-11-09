@@ -1,0 +1,6 @@
+html{
+    user-select: none;
+}
+h1{
+    pointer-events: none;
+}
